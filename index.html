@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday!</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: 'Poppins', sans-serif;
+        background: #0a0a23;
+        color: white;
+        text-align: center;
+    }
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    h1 {
+        font-size: 4rem;
+        animation: glow 1.5s infinite alternate;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+    @keyframes glow {
+        from {
+            text-shadow: 0 0 10px #ff47da, 0 0 20px #ff47da, 0 0 30px #ff47da;
+        }
+        to {
+            text-shadow: 0 0 20px #ffd600, 0 0 30px #ffd600, 0 0 40px #ffd600;
+        }
+    }
+
+    /* Balloons */
+    .balloon {
+        width: 60px;
+        height: 90px;
+        position: absolute;
+        bottom: -150px;
+        border-radius: 50% 50% 50% 50%;
+        animation: rise 8s infinite ease-in;
+    }
+    .balloon:nth-child(1) { background: #ff3f8b; left: 10%; animation-delay: 0s;}
+    .balloon:nth-child(2) { background: #ff9a3f; left: 30%; animation-delay: 1s;}
+    .balloon:nth-child(3) { background: #3fff8b; left: 50%; animation-delay: 2s;}
+    .balloon:nth-child(4) { background: #3f8bff; left: 70%; animation-delay: 3s;}
+    .balloon:nth-child(5) { background: #e13fff; left: 90%; animation-delay: 4s;}
+
+    @keyframes rise {
+        0% { bottom: -100px; }
+        100% { bottom: 110%; }
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🎂 Happy Birthday, Riyad! 🎉</h1>
+   
+</div>
+
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+
+</body>
+</html>
